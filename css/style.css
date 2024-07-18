@@ -358,6 +358,7 @@ img {
     border-radius: 5px;
     padding: 29px 35px;
     display: flex;
+    margin-bottom: 18px;
 }
 
 
@@ -438,6 +439,49 @@ img {
     font-weight: 500;
 }
 
+/* NEWS QISMI */
+.news-box {
+    margin-bottom: 32px;
+}
+
+.news-box_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -21px;
+}
+
+.new-box_item {
+    width: 386px;
+    margin-bottom: 18px;
+    margin-left: 21px;
+    flex-grow: 1;
+}
+
+.new-box-item_img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 11px;
+    object-position: center top;
+}
+.new-box-item_title {
+    margin-bottom: 11px;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 500;
+}
+.new-box-item__link {
+    color: #202020;
+}
+
+.new-box-item_date {
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B6D97;
+
+}
+
 
 
 
@@ -459,6 +503,36 @@ img {
         
     } */
 /* } */
+@media (max-width: 1230px) {
+   .covid-about__covid-box_title {
+    margin-right: 40px;
+    }
+     .covid-about_item {
+        padding-right: 15px;
+            padding-left: 15px;
+     }
+     .covid-about_item_red {
+        padding-top: 0;
+        padding-bottom: 0;
+     }
+}
+@media (max-width: 1100px) {
+    .covid-about {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .covid-about_item_red {
+        border:none
+    }
+   .covid-about__covid-box_title {
+      width: auto;
+      justify-content: center;
+   }
+   .covid-about__covid-box {
+    justify-content: center;
+   }
+}
+
 @media (max-width: 1000px) {
     .header_top_wrapper_left {
         flex-direction: column;
@@ -513,4 +587,28 @@ img {
         .header_top_wrapper__right {
             margin-left: 0;
         }
+
+        .covid-about__list {
+            flex-direction: column;
+
+           
+        }
+        .covid-about_item {
+            border-left: none;
+            padding: 15px;
+            width: 300px;
+        }
+       .covid-about_item:not(:last-child) {
+        margin-bottom: 20px;
+       }
+           
+ }
+ @media (max-width: 600px) {
+    .covid-about__covid-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+     .covid-about__covid-box_title {
+        margin-right: 0;
+    }
  }
