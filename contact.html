@@ -85,9 +85,10 @@
     </header>
     <main class="main-container">
         <div class="container">
+ <h1 class="form_info-wrapper_title">Напишите нам</h1>
+
           
     <div class="form_info-wrapper">
-        <h1>Напишите нам</h1>
 
         <div class="contact_box">
             <form class="contact_form" method="POST">
@@ -104,7 +105,7 @@
                     <input class="contact-form_input" type="text" aria-label="Тема" name="name"  placeholder="Тема" required>
                 </div>
                 <div class="conact-form_box">
-                    <textarea class="contact-form_textarea" type="text" name="body" aria-label="Текст" placeholder="Текст" required> 
+                    <textarea class="contact-form_textarea" type="text" name="body" aria-label="Текст" rows="7" placeholder="Текст" required> 
                     </textarea>
                 </div>
                 <div class="conact-form_box contact-form__group--small">
@@ -116,7 +117,38 @@
                 </div>
             </form>
         </div>
+        <div class="contact-info">
+       <img class="contact-info_logo" src="./img/logo.svg" alt="" width="329" height="33">
+      
+    <div class="contact_info_box">
+        <p class="contact_info_boxdesc">Электронная почта</p>
+        <p class="contact_info_boxdesc">info@namanganliklar24.uz</p>
     </div>
+    <div class="contact_info_box">
+        <p class="contact_info_boxdesc">Социальные сети</p>
+        <ul class="flexbox">
+            <li><img src="./img/facebook-r.svg" alt="facebook" width="32" height="32"></li>
+            <li><img src="./img/twitter-r.png" alt="twitter" width="32" height="32"></li>
+            <li><img src="./img/odnoklasnik-r.svg" alt="odnoklasnik" width="32" height="32"></li>
+        </ul>
+    </div>
+    <div class="contact_info_box">
+        <p class="contact_info_boxdesc">Телеграм канал</p>
+        <a class="contact-tg btn" href="https://tme.to/azamovoff" target="_blank">
+            <img class="telegram_icon_img" src="./img/telegram.svg" alt="logo telegram" height="20" width="20">
+            <span class="telegram_text">Подписатся</span>
+        </a>
+    </div>
+    <div class="contact_info_box">
+        <p class="contact_info_boxdesc">Мобильная приложение</p>
+        <div class="flexbox">
+            <img src="./img/googlePlay-w.svg" alt="">
+            <img src="./img/appleStore-w.svg" alt="">
+        </div>
+    </div>
+        </div>
+    </div>
+   
         </div>
     </main>
     <!-- FOOTER -->
