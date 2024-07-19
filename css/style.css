@@ -116,7 +116,7 @@ img {
 .header {
     border-top: 4px solid #295093;
     background-color: #F6F6F9;
-    padding-top: 43px;
+    padding-top: 23px;
     padding-bottom: 23px;
 }
 
@@ -860,6 +860,25 @@ img {
     display: none;
 }
 
+.header_nav {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.header_nav_list {
+    display: flex;
+     gap: 20px;
+     color: #515151;
+     align-items:center;
+     justify-content:center;
+}
+
+.header_nav_list_item {
+
+}
+.header_nav_list_item_link {
+    color: #515151;
+}
 
 
 
