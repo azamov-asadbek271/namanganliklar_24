@@ -677,9 +677,53 @@ img {
     height: 50px;
 }
 
+/* ARTICLe */
+.articel {
+    width: 774px;
+    margin-right: 20px;
+    border-bottom: solid 2px #EBEBEB;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    color:#000000;
+    margin-bottom: 16px;
+}
 
 
+.article-desc {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-top: 15px;
+}
+.aricel-img {
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+.articel_body p:first-child {
+  margin-top: 0;
+}
+.articel_body {
+    margin-bottom: 36px;
+}
+.tags-list {
+    display: flex;
+    gap: 12px;
+}
+.tags_link {
+    font-size: 18px;
+    line-height: 21px;
+}
 
+
+/*  */
 
 
 
